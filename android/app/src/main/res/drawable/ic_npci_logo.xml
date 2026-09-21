@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#F4F6F8"
+        android:pathData="M24,2A22,22 0,1 0,46 24,22 22,0 0,0 24,2z" />
+    <!-- Orange Wing (Left) -->
+    <path
+        android:fillColor="#F47721"
+        android:pathData="M8,16L18,24L8,32L14,32L24,24L14,16z" />
+    <!-- Green Wing (Right) -->
+    <path
+        android:fillColor="#00A651"
+        android:pathData="M24,16L34,24L24,32L30,32L40,24L30,16z" />
+    <!-- Navy Blue Base Text Bar -->
+    <path
+        android:fillColor="#002D62"
+        android:pathData="M12,36H36V39H12z" />
+</vector>

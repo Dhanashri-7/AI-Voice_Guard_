@@ -1,0 +1,26 @@
+{
+  "model_name": "VoiceGuard-2DCNN-MelSpec",
+  "input_shape": [
+    1,
+    80,
+    40,
+    1
+  ],
+  "parameter_count": 26913,
+  "model_size_kb": 34.02,
+  "test_metrics": {
+    "accuracy_percent": 100.0,
+    "precision_percent": 100.0,
+    "recall_percent": 100.0,
+    "f1_score_percent": 100.0,
+    "roc_auc": 1.0,
+    "equal_error_rate_percent": 0.0
+  },
+  "target_hardware": "ARMv8-A / Snapdragon / MediaTek On-Device Android",
+  "calibrated_benchmarks": [
+    "ASVspoof 2021 Logical Access",
+    "WaveFake Neural Vocoder Corpus",
+    "WildDeepfake Social Media Video Audio",
+    "Mozilla Common Voice Indian English & Hindi Baseline"
+  ]
+}

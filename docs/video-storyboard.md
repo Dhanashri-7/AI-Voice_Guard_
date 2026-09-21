@@ -1,0 +1,13 @@
+# VoiceGuard — 2-Minute Demo Video Storyboard
+## Smart India Hackathon 2026 — Problem Statement 26104
+
+---
+
+| Time | Visual / Screen Action | Voiceover / Audio Script | On-Screen Text / Badges |
+| :--- | :--- | :--- | :--- |
+| **0:00 - 0:15** | Close-up of smartphone ringing. Caller ID says "Mom", but the number is unknown (+91 91234 56789). Dramatic ambient score. | "A phone rings. It sounds like your mother in distress. She says she's in a hospital emergency and urgently needs ₹20,000 via Google Pay. Would you suspect it's an AI clone?" | **THE THREAT**: Few-Shot AI Voice Cloning |
+| **0:15 - 0:35** | User picks up. VoiceGuard overlay activates. The **Dynamic Risk Ring** starts at 24 (Green). Live waveform oscillates. | "Meet VoiceGuard: The first cybersecurity layer designed not just to check spam numbers, but to detect AI voice impersonation attacks in real time." | **VOICEGUARD**: Real-Time Impersonation Defense |
+| **0:35 - 0:55** | As the Marathi audio plays (*'त्वरित पैसे पाठवा'*), the risk score surges: **24 $\to$ 47 $\to$ 72 $\to$ 91**. Risk Ring turns vivid Crimson. Red alert banner flashes. | "Within seconds, VoiceGuard extracts high-frequency acoustic features. It detects vocoder synthesis artifacts, rigid monotone pitch, and discovers a 66% speaker voice mismatch against Mom's enrolled baseline." | **RISK 91**: CRITICAL IMPERSONATION RISK |
+| **0:55 - 01:15** | User taps **"Why Flagged?"**. Spectrogram modal pops up showing the highlighted red anomaly band above 3.2 kHz. User then taps **"Verify Caller"**. | "VoiceGuard provides Explainable AI—showing the exact vocoder phase anomaly on the spectrogram. And instead of blindly hanging up, it guides the user to call Mom's verified number independently." | **EXPLAINABLE AI**: Vocoder Phase Discontinuity Flagged |
+| **01:15 - 01:35** | Call ends. The **Attack Reconstruction** screen appears, sequentially lighting up all 7 stages from identity claim to VoiceGuard intervention. | "After the call, VoiceGuard reconstructs the attack across 7 psychological and acoustic stages, automatically compiling an exportable forensic report for the 1930 Cybercrime Helpline." | **POST-CALL FORENSICS**: 7-Stage Attack Reconstruction |
+| **01:35 - 02:00** | Quick montage of **Attack Lab**, **Privacy Center** (Zero raw audio retention), and **Enterprise API** (Banking integration). Final VoiceGuard logo lockup. | "Zero raw audio retention. 100% offline edge processing. Multilingual Indian language support. VoiceGuard: Protecting the voice of India. Smart India Hackathon 2026." | **VOICEGUARD**: Problem Statement 26104 (AICTE) |

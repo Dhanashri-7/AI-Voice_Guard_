@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  voiceguard-backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: voiceguard-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+      - PROJECT_NAME=VoiceGuard AI
+    volumes:
+      - ../backend/app/database:/app/backend/app/database
+    restart: unless-stopped

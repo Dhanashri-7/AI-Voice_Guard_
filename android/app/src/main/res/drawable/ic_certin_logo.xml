@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Shield -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M24,2L6,9V22C6,33.5 13.7,44.2 24,47C34.3,44.2 42,33.5 42,22V9L24,2z" />
+    <!-- Inner White Shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,5L9,11.5V22C9,31.5 15.4,40.8 24,43.5C32.6,40.8 39,31.5 39,22V11.5L24,5z" />
+    <!-- Saffron Top Band -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M11,17H37V22H11z" />
+    <!-- White Mid Band -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,22H37V27H11z" />
+    <!-- Green Bottom Band -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M11,27H37V32H11z" />
+    <!-- Blue Chakra in Center -->
+    <path
+        android:fillColor="#000080"
+        android:pathData="M24,22A2.5,2.5 0,1 0,26.5 24.5,2.5 2.5,0 0,0 24,22z" />
+    <!-- Cyber Lock Overlay -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M24,14C22.3,14 21,15.3 21,17V19H27V17C27,15.3 25.7,14 24,14z" />
+</vector>

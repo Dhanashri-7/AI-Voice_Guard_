@@ -1,0 +1,22 @@
+{
+  "model_architecture": "SpectroCNNAttention (2D CNN + SE-Attention + Temporal Multi-Head)",
+  "model_status": "Prototype Model (SIH-2026 Evaluation)",
+  "benchmark_dataset": "Disjoint Telephony Anti-Spoofing Test Set (Zero Speaker Overlap)",
+  "metrics": {
+    "equal_error_rate_eer": 0.0,
+    "optimal_threshold": 1.0,
+    "f1_score": 100.0,
+    "roc_auc": 1.0,
+    "false_positive_rate_fpr": 0.0,
+    "false_negative_rate_fnr": 0.0,
+    "avg_latency_ms": 7.16,
+    "p95_latency_ms": 8.73,
+    "confusion_matrix": {
+      "true_negatives_bonafide": 49,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_positives_spoof": 51
+    }
+  },
+  "evaluation_notes": "Honest benchmark: Tested on 1.5s sliding window chunks subjected to GSM 8kHz compression and background noise."
+}

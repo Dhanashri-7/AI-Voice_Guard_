@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VoiceGuard</string>
+    <string name="slogan">AI-Powered Real-Time Voice Integrity &amp; Impersonation Protection</string>
+    <string name="hackathon_target">Smart India Hackathon 2026 — Problem Statement 26104</string>
+    <string name="status_protected">VOICEGUARD ACTIVE</string>
+    <string name="status_subtitle">Listening for AI voice cloning &amp; social-engineering threats</string>
+
+    <!-- Permissions -->
+    <string name="perm_mic_title">Microphone Access</string>
+    <string name="perm_mic_why">Extracts high-frequency acoustic features in real-time to detect voice cloning artifacts.</string>
+    <string name="perm_mic_no_record">Audio is processed strictly on-device. Raw audio is never saved or uploaded.</string>
+
+    <string name="perm_telecom_title">Call Screening Role</string>
+    <string name="perm_telecom_why">Enables VoiceGuard to screen unknown callers against the threat intelligence registry before ringing.</string>
+
+    <!-- Attack Scenarios -->
+    <string name="scenario_family">Family Member Voice Clone (Mom)</string>
+    <string name="scenario_bank">Bank Officer KYC Impersonation</string>
+    <string name="scenario_police">Digital Arrest / CBI Extortion</string>
+    <string name="scenario_ceo">CEO Urgent Wire Transfer</string>
+    <string name="scenario_normal">Genuine Colleague Call</string>
+</resources>
