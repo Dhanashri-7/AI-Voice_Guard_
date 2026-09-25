@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">VoiceGuard</string>
-    <string name="slogan">AI-Powered Real-Time Voice Integrity &amp; Impersonation Protection</string>
-    <string name="hackathon_target">Smart India Hackathon 2026 — Problem Statement 26104</string>
+    <string name="slogan">AI-Based Fake Identity, Biometric Voice &amp; Credential Screening System</string>
+    <string name="hackathon_target">Smart India Hackathon 2026 — Problem Statement SIH26188 (MHA)</string>
     <string name="status_protected">VOICEGUARD ACTIVE</string>
-    <string name="status_subtitle">Listening for AI voice cloning &amp; social-engineering threats</string>
+    <string name="status_subtitle">Screening for AI voice clones, fake authority &amp; digital arrest threats</string>
 
     <!-- Permissions -->
     <string name="perm_mic_title">Microphone Access</string>
