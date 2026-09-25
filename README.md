@@ -1,4 +1,4 @@
-# 🛡️ VOICEGUARD — AI-Powered Real-Time Voice Impersonation Protection
+# 🛡️ VOICEGUARD — AI-Based Fake Identity & Biometric Voice Screening System
 
 <p align="center">
   <img src="assets/voiceguard_presentation_banner.jpg" alt="VoiceGuard Banner" width="100%" />
@@ -6,27 +6,35 @@
 
 <p align="center">
   <strong>"Safety Behind Every Call."</strong><br>
-  <em>Next-Generation In-Call Cyber Defense against AI Voice Clones, Audio Deepfakes & Impersonation Extortion</em>
+  <em>Smart India Hackathon 2026 | Problem Statement ID: <strong>SIH26188</strong> | Ministry of Home Affairs (MHA)</em><br>
+  <em>Team: <strong>NEX ERA</strong> (Team ID: 161860) | Theme: Blockchain & Cybersecurity (Software)</em>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/SIH_2026-PS_SIH26188-FF9933?style=for-the-badge&logoColor=white" alt="SIH 2026" />
+  <img src="https://img.shields.io/badge/Ministry-Ministry_of_Home_Affairs-000080?style=for-the-badge" alt="MHA" />
   <img src="https://img.shields.io/badge/Platform-Android_12+-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
   <img src="https://img.shields.io/badge/UI-Jetpack_Compose_Material3-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose" />
-  <img src="https://img.shields.io/badge/Language-Kotlin_2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/ML_Inference-TFLite_/_ONNX_Edge-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TFLite" />
-  <img src="https://img.shields.io/badge/Backend-FastAPI_Python-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Compliance-DPDP_Act_2023-10B981?style=for-the-badge" alt="DPDP Compliance" />
 </p>
 
 ---
 
-## 📌 Executive Overview
+## 📌 Executive Overview — Problem Statement SIH26188
 
-With generative AI audio tools enabling hyper-realistic voice clones within 3 seconds of reference audio, cybercriminals are conducting targeted financial fraud, fake kidnapping ransom calls, and **"CBI Digital Arrest"** scams. Standard spam blockers only inspect caller IDs — they cannot tell when a caller's voice is synthetic or impersonating a trusted contact.
+> **Problem Statement Title**: *AI-Based Fake Identity & Document Screening System*  
+> **Target Authority**: *Ministry of Home Affairs (MHA) / National Cybercrime Reporting (1930)*
 
-**VoiceGuard** is an on-device, real-time telephony cybersecurity system that verifies the acoustic integrity of incoming calls in real time. It analyzes vocoder synthesis artifacts, validates speaker identity against enrolled trusted voices, and neutralizes extortion attempts using an autonomous **AI Honeypot Counter-Defense Bot**.
+With generative AI audio tools enabling hyper-realistic voice clones within 3 seconds of reference audio, cybercriminals are conducting targeted financial extortion, fake kidnapping ransom calls, and **"CBI/Police Digital Arrest"** scams using forged credentials and synthetic identity impersonation. Standard spam blockers only inspect static caller IDs — they cannot tell when a caller's voice is synthetic or impersonating a trusted official or family member.
 
-> **Guiding Principle**: *"Detect the impersonation attack, not just the phone number."*
+**VoiceGuard** solves this by providing an end-to-end, on-device AI screening platform:
+1. **Biometric Voice Identity Screening**: Real-time vocoder discontinuity and neural phase analysis to detect synthetic AI voices during live calls (< 80ms).
+2. **Credential & Identity Screening**: Automated screening of fake police warrants, digital arrest summons, and spoofed authority credentials.
+3. **Active Defense (Honeypot Bot)**: Autonomous decoy personas (AI आजी / काका) that engage scammers, wasting their bandwidth and capturing actionable threat telemetry for law enforcement.
+4. **100% On-Device Privacy**: DPDP Act 2023 compliant with zero raw audio transmission to cloud servers.
+
+> **Guiding Principle**: *"Screen the identity, not just the phone number."*
 
 ---
 
@@ -172,11 +180,17 @@ python export/export_onnx.py
 
 ---
 
-## 👥 Authors & Acknowledgments
+## 👥 Team & Submission Details
 
+- **Team Name**: NEX ERA
+- **Team ID**: 161860
 - **Lead Developer**: Dhanashri Pawar ([@Dhanashri-7](https://github.com/Dhanashri-7))
-- **Project**: VoiceGuard — AI-Powered Real-Time Voice Integrity & Impersonation Protection
-- **Target Initiative**: Smart India Hackathon (SIH) — Cyber Security & Public Safety Track
+- **Project**: VoiceGuard — AI-Based Fake Identity & Biometric Voice Screening System
+- **Initiative**: Smart India Hackathon (SIH 2026)
+- **Problem Statement ID**: **SIH26188**
+- **Ministry / Organization**: **Ministry of Home Affairs (MHA)**
+- **Problem Statement Title**: AI-Based Fake Identity & Document Screening System
+- **Category & Theme**: Software | Blockchain & Cybersecurity
 
 ---
 
